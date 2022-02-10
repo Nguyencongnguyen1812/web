@@ -1,0 +1,31 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.17.1",
+    "express-handlebars": "^6.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.0",
+    "token": "^0.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nguyencongnguyen1812/banhang.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Nguyencongnguyen1812/banhang/issues"
+  },
+  "homepage": "https://github.com/Nguyencongnguyen1812/banhang#readme",
+  "description": ""
+}
